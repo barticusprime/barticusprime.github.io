@@ -1,0 +1,51 @@
+body {
+  background-color: #151B1E;
+  font-family: 'Source Code Pro', monospace;
+  color: #BAD0D7;
+  text-align: center;
+  text-transform: lowercase;
+  line-height: 1.5em;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  transition: all 100ms ease-in-out;
+}
+
+.archrival, .archrival:visited, .archrival:visited {
+  color: #ee3424;
+  text-decoration: none;
+}
+
+.archrival:hover {
+  color: white;
+}
+
+.links a {
+  color: #5FCAFF;
+  text-decoration: none;
+}
+
+.links a:visited {
+  color: #43A5FF;
+}
+
+.links a:hover {
+  color: #FFFFFF;
+}
+
+.links a:hover::after   { content: " >"; }
+.links a:hover::before  { content: "< "; }
